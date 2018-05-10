@@ -1,0 +1,70 @@
+.search-content {
+  color: black;
+  height: 100%;
+  margin: 25px 20% 150px 20%;
+  width: 60%;
+  
+  p.not-found {
+      margin-top: 25vh;
+      font-size: 35px;
+      text-align: center;
+  }
+
+  &:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+}
+
+.thumbnail {
+  width: 33%;
+  float: left;
+
+  img {
+      max-width: 70%;
+      margin: 0 15%;
+  }
+
+  div {
+      height: 60px;
+      margin: 0 10%;
+      .genre {
+          font-size: 7px;
+      }
+
+      .year {
+          height: 13px;
+          font-size: 10px;
+          color: #777;
+          border: 1px solid #777;
+          float: right;
+      }
+  }
+}
+
+
+.content-control-bar {
+  color: #444;
+  background-color: #CCC;
+
+  &:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+  .content-control {
+      float: left;
+      margin: 5px 0 5px 35px;
+  }
+
+  .sort-control {
+      float: right;
+      margin: 5px 10px 5px 10px;
+
+      &.active {
+          color: hotpink;
+      }
+  }
+}

@@ -1,0 +1,77 @@
+.movie-details {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: auto;
+
+    background-image: url("../img/netflix_large.jpg");
+    background-repeat: no-repeat;
+}
+
+.title {
+    h3 {
+        float: left;
+    }
+
+    button {
+        background-color: white;
+        color: hotpink;
+        border: none;
+        border-radius: 2px;
+        height: 25px;
+        width: 100px;
+        float: right;
+    }
+}
+
+.poster {
+    width: 25%;
+    float: left;
+
+    img {
+        max-width: 90%;
+        margin: 0 5%;
+    }
+}
+
+.info {
+    width: 33%;
+    display: inline-block;
+
+    h1 {
+        color: hotpink;
+        float: left;
+    }
+
+    .rating {
+        margin-top: 25px;
+        text-align: center;
+        line-height: 30px;
+        height: 30px;
+        width: 30px;
+        border: 1px solid white;
+        border-radius: 15px;
+        float: right;
+    }
+
+    .datetime {
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+
+        span {
+            margin-right: 25px;
+        }
+    }
+}
+
+.description {
+    width: 66%;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.details-control-bar {
+    margin-left: 25px;
+    color: black;
+}
